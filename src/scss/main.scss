@@ -1,0 +1,28 @@
+@import '_nav.scss';
+
+section{
+    margin: 0 auto;
+    max-width: 960px;
+    padding-inline: 1.618rem;
+    article{
+        padding-block-start: 1.618rem;
+    }
+}
+// section#home{
+//     padding-block-start: 10vh;
+// }
+
+
+.bgImg{
+    display: block;
+    position: absolute;
+    background-image: 
+        linear-gradient(transparent, white),
+        url('../img/bg.jpg');
+    height: 100vh;
+    width: 100%;
+    top:0;
+    z-index: -1;
+    overflow: hidden;
+    background-size: cover;
+}
